@@ -1,0 +1,13 @@
+# Ignore build output
+android/
+ios/
+vendor/
+
+# Ignore specific files
+*.log
+*.config.js
+
+# Ignore directories
+node_modules/
+dist/
+build/

@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": ["react-native", "jest", "node"],
+    "typeRoots": ["src/types", "./node_modules/@types"],
+    "lib": ["es2019", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

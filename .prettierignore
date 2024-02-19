@@ -1,0 +1,15 @@
+# Ignore build output
+android/
+ios/
+vendor/
+
+# Ignore specific files
+*.log
+*.config.js
+.eslintrc.js
+
+# Ignore directories
+node_modules/
+dist/
+build/
+src/@types/
